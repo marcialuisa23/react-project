@@ -22,7 +22,7 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
+      <form className="Dictionary-form" onSubmit={search}>
         <input type="search" autoFocus={true} onChange={handleKeyword} />
       </form>
       <Result result = {result} />

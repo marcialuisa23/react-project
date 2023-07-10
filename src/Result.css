@@ -1,0 +1,10 @@
+.Result {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.Result-tittle {
+  text-transform: uppercase;
+}
